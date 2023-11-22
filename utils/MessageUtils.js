@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 
-export const MassageShape = PropTypes.shape({
+export const MessageShape = PropTypes.shape({
   id: PropTypes.number.isRequired,
   type: PropTypes.oneOf(['text', 'image', 'location']).isRequired,
   text: PropTypes.string,
